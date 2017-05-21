@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+
+body{
+  background-color:#EBF4CF;
+}
+*{
+  padding:0;
+  margin:0;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family:cursive;
+}
+
+img{
+  margin-top:1rem;
+}
+.container{
+  width:80%;
+  margin:0 auto;
+}
+
+header{
+
+  background-color:green;
+  padding:1rem;
+  font-size:1.5rem;
+}
+
+.inline{
+  width:45%;
+}
+
+.block{
+  width:91%;
+}
+header>h1{
+  color:#fff;
+  text-align: center;
+
+}
+
+section,aside{
+  width:40%;
+  float:left;
+  margin-top:2rem;
+
+}
+
+
+
+section{
+  margin-left:10%;
+}
+section>form>select{
+  margin-top:1rem;
+  width: 30%;
+}
+section>form input[class = block],section>form button,section>form small{
+  display: block;
+
+}
+
+span{
+  font-weight:bold;
+}
+form p,form>h4{
+  margin-top:1rem;
+}
+form>input,form>button{
+  font-size:1.1rem;
+  border:1px solid #000;
+}
+form>input,form button,form select form p{
+  margin-top:1rem;
+
+}
+
+small{
+  margin-top:1rem;
+}
+form span{
+  display: inline-block;
+  margin-top:1rem;
+}
+
+section>form input>p{
+  display: inline;
+}
+
+section>form>input[type = text],section>form>select{
+  padding:.5rem;
+  border-radius: 5px;
+
+}
+
+section>form>button{
+  background-color:green;
+  color:#fff;
+  padding:1rem;
+  border-radius: 8px;
+  margin-top:1rem;
+  opacity: 0.6;
+  box-shadow: 1px 5px 1px #000;
+
+}
+aside{
+  margin-right:10%;
+}
